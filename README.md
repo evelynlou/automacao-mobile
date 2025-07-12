@@ -20,7 +20,7 @@ Sua sintaxe é baseada em dados tabulares, o que facilita a leitura e manutenç�
 
 ---
 
-## 🔧 Introdução ao Appium
+## Introdução ao Appium
 
 O **Appium** é um **servidor de código aberto**, baseado no protocolo **WebDriver**, que gerencia a comunicação com dispositivos móveis **Android** e **iOS**.
 
@@ -53,7 +53,6 @@ Pré-requisitos
   - [`uiautomator2`](https://github.com/appium/appium-uiautomator2-driver) (Android)
   - [`xcuitest`](https://github.com/appium/appium-xcuitest-driver) (iOS)
 
----
 
 ## Instalação via Terminal
 
@@ -72,7 +71,6 @@ Ao rodar o comando `appium-doctor`, o esperado é que todas as verificações ap
 
 Caso alguma verificação apareça em vermelho, como `JAVA_HOME` ou `ANDROID_HOME`, será necessário configurar essas variáveis manualmente.
 
----
 
 JAVA_HOME
 
@@ -97,8 +95,6 @@ ANDROID_HOME
 
 O `ANDROID_HOME` aponta para a pasta onde o **Android SDK** está instalado. Ele é essencial para que o Appium se comunique com dispositivos Android — seja para executar testes em emuladores ou dispositivos reais, por meio de ferramentas como o ADB (*Android Debug Bridge*).
 
----
-
 **Passos:**
 
 1. O Android Studio: Já deve estar instalado.
@@ -113,16 +109,17 @@ Clique em "Novo" e crie uma variável de sistema chamada:
  
 `ANDROID_HOME`
 
-•No campo de valor, insira o caminho completo da pasta do SDK (conforme o exemplo acima).
+• No campo de valor, insira o caminho completo da pasta do SDK (conforme o exemplo acima).
 
 
 4. Edite a variável `Path` e adicione a seguinte entrada:
-   ```text
+  ```
    %ANDROID_HOME%\plataform-tools
-   %ANDROID_HOME%\emulator
+   %ANDROID_HOME%\emulator```
 
 Verificação no Terminal:
-echo %ANDROID_HOME
+
+```echo %ANDROID_HOME```
 
 Depois que finalizar rode o Appium Doctor e verifique se está tudo ok.
 

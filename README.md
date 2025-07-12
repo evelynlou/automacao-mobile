@@ -119,7 +119,8 @@ Clique em "Novo" e crie uma variável de sistema chamada:
 
   ```
    %ANDROID_HOME%\plataform-tools
-   %ANDROID_HOME%\emulator ```
+   %ANDROID_HOME%\emulator
+ ```
 
 Verificação no Terminal:
 

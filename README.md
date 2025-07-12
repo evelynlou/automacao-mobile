@@ -110,7 +110,7 @@ O `ANDROID_HOME` aponta para a pasta onde o **Android SDK** está instalado. Ele
 
 Clique em "Novo" e crie uma variável de sistema chamada:
  
-`ANDROID_HOME`
+```ANDROID_HOME```
 
 • No campo de valor, insira o caminho completo da pasta do SDK (conforme o exemplo acima).
 

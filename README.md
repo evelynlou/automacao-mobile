@@ -39,7 +39,7 @@ Essa estrutura permite realizar testes automatizados em dispositivos reais ou em
 
 ---
 
-## Processo de Instalação do Appium
+## ⚙️ Processo de Instalação do Appium
 
 Para conseguir rodar uma automação mobile com **Appium + Robot Framework**, é necessário instalar os seguintes componentes:
 

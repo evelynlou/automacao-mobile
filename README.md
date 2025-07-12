@@ -84,11 +84,11 @@ O `JAVA_HOME` é necessário para que o Appium consiga localizar o Java no siste
    - Crie uma variável de sistema chamada `JAVA_HOME`
    - Defina o valor como o caminho da instalação do Java
 4. Edite a variável `Path` e adicione a seguinte entrada:
-   ```text
-   %JAVA_HOME%\bin
+   
+   ```%JAVA_HOME%\bin```
 
 verificação no Terminal:
-echo %JAVA_HOME%
+```echo %JAVA_HOME%```
 
 
 ANDROID_HOME

@@ -7,7 +7,7 @@ Conteúdo
 
 ---
 
-## 🤖 Introdução ao Robot Framework
+## Introdução ao Robot Framework
 
 O **Robot Framework** é uma ferramenta de automação de testes utilizada para validar o funcionamento de sites, aplicações web, aplicativos desktop, mobile, bancos de dados, entre outros tipos de sistemas.
 
@@ -39,7 +39,7 @@ Essa estrutura permite realizar testes automatizados em dispositivos reais ou em
 
 ---
 
-## ⚙️ Processo de Instalação do Appium
+## Processo de Instalação do Appium
 
 Para conseguir rodar uma automação mobile com **Appium + Robot Framework**, é necessário instalar os seguintes componentes:
 
@@ -57,15 +57,16 @@ Pré-requisitos
 
 ## Instalação via Terminal
 
-```bash
 # Instalar Appium (globalmente)
-npm install -g appium
+
+```npm install -g appium```
 
 # Instalar Appium Doctor
-npm install -g appium-doctor
+
+```npm install -g appium-doctor```
 
 
-## 🧪 Configuração do Appium Doctor
+## Configuração do Appium Doctor
 
 Ao rodar o comando `appium-doctor`, o esperado é que todas as verificações apareçam em **verde**.
 

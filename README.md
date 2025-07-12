@@ -90,6 +90,7 @@ O `JAVA_HOME` é necessário para que o Appium consiga localizar o Java no siste
    ```%JAVA_HOME%\bin```
 
 verificação no Terminal:
+
 ```echo %JAVA_HOME%```
 
 
@@ -102,8 +103,8 @@ O `ANDROID_HOME` aponta para a pasta onde o **Android SDK** está instalado. Ele
 1. O Android Studio: Já deve estar instalado.
   
 2. Após a instalação, localize a pasta do SDK. O caminho padrão geralmente é:  
-   ```text
-   C:\Users\SeuUsuario\AppData\Local\Android\Sdk
+   
+ ``` C\Users\SeuUsuario\AppData\Local\Android\Sdk```
 
 3. Vá até as Variáveis de Ambiente do sistema:
 

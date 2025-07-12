@@ -56,11 +56,13 @@ Pré-requisitos
 
 ## Instalação via Terminal
 
-# Instalar Appium (globalmente)
+
+Instalar Appium (globalmente)
 
 ```npm install -g appium```
 
-# Instalar Appium Doctor
+
+Instalar Appium Doctor
 
 ```npm install -g appium-doctor```
 

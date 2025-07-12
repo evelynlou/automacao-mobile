@@ -1,6 +1,6 @@
 ## 📱 Automação Mobile: Robot Framework + Appium
 
-## Conteúdo
+Conteúdo
 
 - [Introdução ao Appium](#introdução-ao-appium)
 - [Introdução ao Robot Framework](#introdução-ao-robot-framework)
@@ -43,7 +43,7 @@ Essa estrutura permite realizar testes automatizados em dispositivos reais ou em
 
 Para conseguir rodar uma automação mobile com **Appium + Robot Framework**, é necessário instalar os seguintes componentes:
 
-## Pré-requisitos
+Pré-requisitos
 
 - [Node.js](https://nodejs.org/en/download) – necessário para instalar o Appium via NPM.
 - [Visual Studio Code](https://code.visualstudio.com/) – editor de código recomendado.
@@ -55,7 +55,7 @@ Para conseguir rodar uma automação mobile com **Appium + Robot Framework**, é
 
 ---
 
-### Instalação via Terminal
+## Instalação via Terminal
 
 ```bash
 # Instalar Appium (globalmente)

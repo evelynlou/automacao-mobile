@@ -191,3 +191,26 @@ Abrir o aplicativo
     ...    appWaitActivity=com.swaglabsmobileapp.MainActivity
 
 ```
+## Exemplos de Aplicativos para Estudo de Automação Mobile
+
+Se você está iniciando na automação mobile e ainda não possui um aplicativo próprio para testar, aqui estão alguns apps gratuitos que podem ser utilizados para fins educacionais:
+
+## 🔹 Android
+
+- **[Sauce Labs Sample App](https://github.com/saucelabs/sample-app-mobile)**  
+  Aplicativo de demonstração com funcionalidades como login, listas, swipe e navegação entre telas. Ideal para testes completos.
+
+- **[Android API Demos](https://github.com/appium/sample-code/tree/master/sample-code/apps)**  
+  App oficial com vários exemplos de componentes do Android. Útil para treinar interações com diferentes tipos de elementos.
+
+- **[Appium Test App (ApiDemos-debug.apk)](https://github.com/appium/sample-code/tree/master/sample-code/apps/ApiDemos/bin)**  
+  Versão de demonstração bastante usada para testes com Appium. Compatível com diversos comandos de automação.
+
+## 🔹 iOS
+
+- **[TestApp (iOS Sample App)](https://github.com/appium/ios-test-app)**  
+  Aplicativo de testes desenvolvido pela equipe do Appium. Ideal para automação em simuladores iOS.
+
+---
+
+> 💡 **Dica:** Esses apps estão disponíveis em repositórios públicos e podem ser executados facilmente em emuladores (Android Studio) ou simuladores (Xcode).

@@ -147,10 +147,15 @@ Essa biblioteca contém as keywords necessárias para criar testes de automaçã
 
 ## Appium Inspector
 
-Ele se conecta ao appium server,que por sua vez se conecta ao dispositivo móvel. Quando conectado podemos verificar os locators do app. Para rodar basta colocar as capabilities.
-As capabilities são informações que precisam ser passadas para o appium poder se conectar ao dispositivo móvel.
-```"appium:app:""caminho/"
-   "Appium:platformName":"Dispositivo móvel que será testado"
-   "appium:automationName":"Drive utilizado"
-   "Appium:deviceName":"nome do emulador ou se for real colocar como ex: Android Device" 
-```
+Appium Inspector se conecta ao Appium Server, que por sua vez se comunica com o dispositivo móvel (real ou emulador). Uma vez conectado, é possível inspecionar os elementos da tela e visualizar seus locators, facilitando a automação dos testes.
+
+Para utilizar o Appium Inspector, é necessário fornecer as capabilities, que são configurações essenciais para que o Appium saiba como e onde se conectar.
+
+Exemplo de capabilities:
+
+{
+  "appium:app": "caminho/do/app.apk",
+  "appium:platformName": "Android", // ou "iOS"
+  "appium:automationName": "UiAutomator2", // ou outro driver, como "XCUITest" para iOS
+  "appium:deviceName": "Android Device" // nome do emulador ou "Android Device" para dispositivo real
+}

@@ -147,6 +147,8 @@ Essa biblioteca contém as keywords necessárias para criar testes de automaçã
 
 ## Appium Inspector
 
+🔗 [https://inspector.appiumpro.com](https://inspector.appiumpro.com)
+
 Appium Inspector se conecta ao Appium Server, que por sua vez se comunica com o dispositivo móvel (real ou emulador). Uma vez conectado, é possível inspecionar os elementos da tela e visualizar seus locators, facilitando a automação dos testes.
 
 Para utilizar o Appium Inspector, é necessário fornecer as capabilities, que são configurações essenciais para que o Appium saiba como e onde se conectar.
@@ -160,6 +162,13 @@ Exemplo de capabilities:
   "appium:automationName": "UiAutomator2", // ou outro driver, como "XCUITest" para iOS
   "appium:deviceName": "Android Device" // nome do 
 emulador ou "Android Device" para dispositivo real
-
 }
 ```
+
+> ⚠️ Atenção:
+> Ao rodar o Appium Inspector, precisa ser rodado o parâmetro "appium --allow-cors" ele é responsável por conseguir se comunicar com o Appium inspetor navegador no Appium server, por conta que qualquer interação de navegador o servidor do Appium bloqueia, então antes de rodar é extremamente necessário rodar ele no terminal.
+
+## Escrevendo Casos de Testes
+
+No Robot Framework, ao rodar uma automação mobile terá que ser passado as capabilities para acesso ao aplicativo, há uma keyword responsável por isso a "Open Aplication".
+

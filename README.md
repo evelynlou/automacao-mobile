@@ -142,3 +142,15 @@ Após configurar o ambiente e instalar o Appium, é necessário instalar a Appiu
 ```pip install RobotFramework -appiumlibrary```
 
 Essa biblioteca contém as keywords necessárias para criar testes de automação mobile com Appium e Robot Framework.
+
+---
+
+## Appium Inspector
+
+Ele se conecta ao appium server,que por sua vez se conecta ao dispositivo móvel. Quando conectado podemos verificar os locators do app. Para rodar basta colocar as capabilities.
+As capabilities são informações que precisam ser passadas para o appium poder se conectar ao dispositivo móvel.
+```"appium:app:""caminho/"
+   "Appium:platformName":"Dispositivo móvel que será testado"
+   "appium:automationName":"Drive utilizado"
+   "Appium:deviceName":"nome do emulador ou se for real colocar como ex: Android Device" 
+```

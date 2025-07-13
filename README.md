@@ -146,8 +146,7 @@ Essa biblioteca contém as keywords necessárias para criar testes de automaçã
 ---
 
 ## Appium Inspector
-
-🔗 [https://inspector.appiumpro.com](https://inspector.appiumpro.com)
+ [https://inspector.appiumpro.com](https://inspector.appiumpro.com)
 
 Appium Inspector se conecta ao Appium Server, que por sua vez se comunica com o dispositivo móvel (real ou emulador). Uma vez conectado, é possível inspecionar os elementos da tela e visualizar seus locators, facilitando a automação dos testes.
 
@@ -166,7 +165,10 @@ emulador ou "Android Device" para dispositivo real
 ```
 
 > ⚠️ Atenção:
-> Ao rodar o Appium Inspector, precisa ser rodado o parâmetro "appium --allow-cors" ele é responsável por conseguir se comunicar com o Appium inspetor navegador no Appium server, por conta que qualquer interação de navegador o servidor do Appium bloqueia, então antes de rodar é extremamente necessário rodar ele no terminal.
+> Para que o Appium Inspector funcione corretamente via navegador, é necessário iniciar o Appium Server com o parâmetro --allow-cors.
+Isso permite que o Appium aceite requisições de diferentes origens (CORS), como o Appium Inspector via navegador.
+Antes de abrir o Inspector, execute no terminal:
+> ``` appium --allow-cors ```
 
 ## Escrevendo Casos de Testes
 

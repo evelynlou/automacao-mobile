@@ -153,9 +153,13 @@ Para utilizar o Appium Inspector, é necessário fornecer as capabilities, que s
 
 Exemplo de capabilities:
 
+```
 {
   "appium:app": "caminho/do/app.apk",
   "appium:platformName": "Android", // ou "iOS"
   "appium:automationName": "UiAutomator2", // ou outro driver, como "XCUITest" para iOS
-  "appium:deviceName": "Android Device" // nome do emulador ou "Android Device" para dispositivo real
+  "appium:deviceName": "Android Device" // nome do 
+emulador ou "Android Device" para dispositivo real
+
 }
+```

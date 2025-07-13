@@ -36,7 +36,7 @@ Clicar no campo "password"
 Digitar o termo "${senha}" no campo password
     Input Text    accessibility_id=${campo_senha}    text=${senha}
 
-Verififcar se o acesso é negado
+Verififcar se o acesso ao app é negado
     Click Element    accessibility_id=${login}
     Sleep    3s
     Element Should Be Visible    locator=//android.widget.TextView[@text="Username and password do not match any user in this service."]

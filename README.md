@@ -2,8 +2,14 @@
 
 Conteúdo
 
-- [Introdução ao Appium](#introdução-ao-appium)
 - [Introdução ao Robot Framework](#introdução-ao-robot-framework)
+- [Introdução ao Appium](#introdução-ao-appium)
+- [Processo de Instalação do Appium](#processo-de-instalação-do-appium)
+- [Configuração do Appium Doctor](#configuração-do-appium-doctor)
+- [Instalação da AppiumLibrary no Robot Framework](#instalação-da-appiumlibrary-no-robot-framework)
+- [Appium Inspector](#appium-inspector)
+- [Escrevendo Casos de Teste](#escrevendo-casos-de-teste)
+- [Exemplos de Aplicativos para Estudo de Automação Mobile](#exemplos-de-aplicativos-para-estudo-de-automação-mobile)
 
 ---
 
@@ -204,9 +210,6 @@ Se você está iniciando na automação mobile e ainda não possui um aplicativo
 
 - **[Android API Demos](https://github.com/appium/sample-code/tree/master/sample-code/apps)**  
   App oficial com vários exemplos de componentes do Android. Útil para treinar interações com diferentes tipos de elementos.
-
-- **[Appium Test App (ApiDemos-debug.apk)](https://github.com/appium/sample-code/tree/master/sample-code/apps/ApiDemos/bin)**  
-  Versão de demonstração bastante usada para testes com Appium. Compatível com diversos comandos de automação.
 
 🔹 iOS
 

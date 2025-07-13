@@ -4,7 +4,7 @@ Conteúdo
 
 - [Introdução ao Robot Framework](#introdução-ao-robot-framework)
 - [Introdução ao Appium](#introdução-ao-appium)
-- [Processo de Instalação do Appium](#processodeinstalaçãodoappium)
+- [Processo de Instalação do Appium](#processo-de-instalação-do-appium)
 - [Configuração do Appium Doctor](#configuração-do-appium-doctor)
 - [Instalação da AppiumLibrary no Robot Framework](#instalação-da-appiumlibrary-no-robot-framework)
 - [Appium Inspector](#appium-inspector)

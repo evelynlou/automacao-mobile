@@ -186,15 +186,13 @@ Essas configurações são as **capabilities**, já explicadas na seção [Appiu
 
 ```
 *** Keywords ***
+Open Application
+    Open Application    http://localhost:4723/wd/hub    platformName=Android    deviceName=emulator-5554    app=path/to/app.apk
 
-Abrir o aplicativo
+*** Test Cases ***
+Testar Abertura do Aplicativo
     Open Application
-    ...    remote_url=http://127.0.0.1:4723
-    ...    platformName=Android
-    ...    deviceName=Android Device
-    ...    app=C:/Users/Evelyn/Documents/automacao_mobile/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
-    ...    automationName=UiAutomator2
-    ...    appWaitActivity=com.swaglabsmobileapp.MainActivity
+    # outras etapas do teste...
 
 ```
 ---

@@ -59,12 +59,12 @@ Para conseguir rodar uma automação mobile com **Appium + Robot Framework**, é
 
 • Instalar Appium (globalmente)
 
-```npm install -g appium```
+  ```npm install -g appium```
 
 
 • Instalar Appium Doctor
 
-```npm install -g appium-doctor```
+  ```npm install -g appium-doctor```
 
 
 ## Configuração do Appium Doctor

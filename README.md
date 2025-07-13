@@ -170,7 +170,24 @@ Isso permite que o Appium aceite requisições de diferentes origens (CORS), com
 Antes de abrir o Inspector, execute no terminal:
 > ``` appium --allow-cors ```
 
-## Escrevendo Casos de Testes
+## Escrevendo Casos de Teste
 
-No Robot Framework, ao rodar uma automação mobile terá que ser passado as capabilities para acesso ao aplicativo, há uma keyword responsável por isso a "Open Aplication".
+No **Robot Framework**, a keyword `Open Application` é usada para inicializar o aplicativo com as configurações necessárias para conectar ao Appium.
 
+Essas configurações são as **capabilities**, já explicadas na seção [Appium Inspector](#appium-inspector).
+
+### Exemplo de keyword para abrir o aplicativo
+
+```
+*** Keywords ***
+
+Abrir o aplicativo
+    Open Application
+    ...    remote_url=http://127.0.0.1:4723
+    ...    platformName=Android
+    ...    deviceName=Android Device
+    ...    app=C:/Users/Evelyn/Documents/automacao_mobile/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+    ...    automationName=UiAutomator2
+    ...    appWaitActivity=com.swaglabsmobileapp.MainActivity
+
+```

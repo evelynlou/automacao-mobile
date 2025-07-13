@@ -43,7 +43,7 @@ Essa estrutura permite realizar testes automatizados em dispositivos reais ou em
 
 Para conseguir rodar uma automação mobile com **Appium + Robot Framework**, é necessário instalar os seguintes componentes:
 
-Pré-requisitos
+1) Pré-requisitos
 
 - [Node.js](https://nodejs.org/en/download) – necessário para instalar o Appium via NPM.
 - [Visual Studio Code](https://code.visualstudio.com/) – editor de código.
@@ -54,7 +54,7 @@ Pré-requisitos
   - [`xcuitest`](https://github.com/appium/appium-xcuitest-driver) (iOS)
 
 
-## Instalação via Terminal
+2) Instalações via Terminal
 
 
 Instalar Appium (globalmente)

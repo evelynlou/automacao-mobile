@@ -195,6 +195,8 @@ Testar Abertura do Aplicativo
     # outras etapas do teste...
 
 ```
+> Para iniciar a automação, basta executar o comando ```appium``` no terminal, desde que o Appium Inspector não esteja em uso ao mesmo tempo.
+
 ---
 
 ## Exemplos de Aplicativos para Estudo de Automação Mobile

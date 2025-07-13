@@ -74,7 +74,7 @@ Ao rodar o comando `appium-doctor`, o esperado é que todas as verificações ap
 Caso alguma verificação apareça em vermelho, como `JAVA_HOME` ou `ANDROID_HOME`, será necessário configurar essas variáveis manualmente.
 
 
-JAVA_HOME
+• JAVA_HOME
 
 O `JAVA_HOME` é necessário para que o Appium consiga localizar o Java no sistema.
 
@@ -89,12 +89,12 @@ O `JAVA_HOME` é necessário para que o Appium consiga localizar o Java no siste
    
    ```%JAVA_HOME%\bin```
 
-verificação no Terminal:
+5. Verificação no Terminal(opcional):
 
-```echo %JAVA_HOME%```
+   ```echo %JAVA_HOME%```
 
 
-ANDROID_HOME
+• ANDROID_HOME
 
 O `ANDROID_HOME` aponta para a pasta onde o **Android SDK** está instalado. Ele é essencial para que o Appium se comunique com dispositivos Android — seja para executar testes em emuladores ou dispositivos reais, por meio de ferramentas como o ADB (*Android Debug Bridge*).
 
@@ -122,9 +122,9 @@ Clique em "Novo" e crie uma variável de sistema chamada:
    %ANDROID_HOME%\emulator
  ```
 
-Verificação no Terminal:
+5. Verificação no Terminal(opcional):
 
-```echo %ANDROID_HOME```
+   ```echo %ANDROID_HOME```
 
 Depois que finalizar rode o Appium Doctor e verifique se está tudo ok.
 

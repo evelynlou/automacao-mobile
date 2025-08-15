@@ -145,7 +145,7 @@ Algumas versões antigas do Appium Doctor ainda tentam localizar esse arquivo e 
 
 Após configurar o ambiente e instalar o Appium, é necessário instalar a AppiumLibrary para o Robot Framework:
 
-```pip install RobotFramework -appiumlibrary```
+```pip install --upgrade robotframework-appiumlibrary```
 
 Essa biblioteca contém as keywords necessárias para criar testes de automação mobile com Appium e Robot Framework.
 

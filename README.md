@@ -195,7 +195,9 @@ Testar Abertura do Aplicativo
     # outras etapas do teste...
 
 ```
-> Para iniciar a automação, basta executar o comando ```appium``` no terminal, desde que o Appium Inspector não esteja em uso ao mesmo tempo.
+> Abrir o servidor Appium (appium no terminal).
+
+> Rodar a automação (robot seu_teste.robot).
 
 ---
 

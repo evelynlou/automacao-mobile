@@ -196,8 +196,9 @@ Testar Abertura do Aplicativo
 
 ```
 > Abrir o servidor Appium (appium no terminal).
+> Rodar a automação (robot seu_teste.robot) para a execução dos testes.
 
-> Rodar a automação (robot seu_teste.robot).
+Observação: não utilize o Appium Inspector ao mesmo tempo, pois ele bloqueia a sessão do servidor.
 
 ---
 

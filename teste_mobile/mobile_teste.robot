@@ -13,7 +13,7 @@ Caso de teste 01: Teste de login invalido
     Digitar o termo "Teste" no campo username
     Clicar no campo "password"
     Digitar o termo "123@" no campo password
-    Verififcar se o acesso ao app é negado
+    Validar login inválido
 
 Caso de teste 02: Teste de login valido
     [Documentation]    Esse teste tem como finalidade validar o comportamento de login valido no app Swag Labs
@@ -22,4 +22,5 @@ Caso de teste 02: Teste de login valido
     Digitar o termo "standard_user" no campo username
     Clicar no campo "password"
     Digitar o termo "secret_sauce" no campo password
-    Verififcar se o acesso ao app é consedido
+    Validar login com sucesso
+

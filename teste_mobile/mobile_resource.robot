@@ -36,14 +36,15 @@ Clicar no campo "password"
 Digitar o termo "${senha}" no campo password
     Input Text    accessibility_id=${campo_senha}    text=${senha}
 
-Verififcar se o acesso ao app é negado
+Validar login inválido
     Click Element    accessibility_id=${login}
     Sleep    3s
     Element Should Be Visible    locator=//android.widget.TextView[@text="Username and password do not match any user in this service."]
     Capture Page Screenshot      filename=armazenamento 
 
-Verififcar se o acesso ao app é consedido
+Validar login com sucesso
     Click Element    accessibility_id=${login}
     Sleep    3s
     Element Should Be Visible    locator=//android.view.ViewGroup[@content-desc="test-Cart drop zone"]/android.view.ViewGroup
     Capture Page Screenshot      filename=armazenamento 
+
